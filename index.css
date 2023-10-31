@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-color: aquamarine;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+
+
+}
+.icon{
+    width: 100px;
+    float: left;
+    position: relative;
+}
+.logo{
+    color: yellow;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+}
+.menu{
+    width: 500px;
+    float: left;
+    height: 70px;
+}
+ul{
+    align-items: center;
+    justify-content: center;
+    float: left;
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 20px;
+    font-size: medium;
+}
+ul li a{
+    text-decoration: none;
+    color: orange;
+    font-family: Arial;
+    transition: 1s;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: white;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 1000px;
+    margin-bottom: 800px;
+}
